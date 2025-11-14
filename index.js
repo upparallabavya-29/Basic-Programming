@@ -7,5 +7,13 @@ function isPrime(num) {
   }
   return true; 
 }
-console.log(isPrime(7)); 
-console.log(isPrime(10));
+function evenOdd(num) {
+    return num % 2 === 0 ? 'Even' : 'Odd';
+}
+
+ console.log(isPrime(7)); 
+ console.log(isPrime(10));
+
+
+console.log("8 is even:", evenOdd(8));
+console.log("7 is even:", evenOdd(7));
